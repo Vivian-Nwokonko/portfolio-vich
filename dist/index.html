@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Vich</title>
+
+    <!-- google fonts link rel -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- tailwind inbuilt output.css link rel -->
+    <link href="./output.css" rel="stylesheet">
+
+
+</head>
+
+<body class="font-['Nunito Sans'] ">
+
+    <div id="home">
+        <!-- Hero section-->
+        <div class="relative min-h-screen bg-gradient-to-t from-indigo-200 overflow-hidden">
+            <!-- Navbar -->
+            <nav class="w-full fixed top-0 bg-white shadow-md z-20">
+                <div class="container mx-auto py-5 flex items-center justify-between px-4">
+                    <!-- Logo -->
+                    <div class="flex items-center gap-2">
+                        <img class="w-15" src="../image/VICH_TECH.png" alt="">
+                        <span class="text-2xl font-bold text-indigo-900">Vich</span>
+                    </div>
+
+                    <!-- Desktop Menu -->
+                    <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase">
+                        <li class="hover:text-indigo-700"><a href="#">Home</a></li>
+                        <li class="hover:text-indigo-700"><a href="#about">About</a></li>
+                        <li class="hover:text-indigo-700"><a href="#services">Services</a></li>
+                        <li class="hover:text-indigo-700"><a href="#contact">Contact</a></li>
+                        <li class="hover:text-indigo-700"><a href="#projects">Works</a></li>
+                    </ul>
+
+                    <!-- Theme Icon -->
+                    <!-- <img class="hidden md:block w-5 cursor-pointer" src="../image/moon-removebg-preview.png" alt=""> -->
+
+                    <!-- Mobile Menu Button -->
+                    <div id="pan"
+                        class="space-y-1 md:hidden cursor-pointer z-30 transition-all duration-300 p-2 rounded-md absolute top-6 right-6">
+                        <div class="w-6 h-0.5 bg-black transition-all duration-300"></div>
+                        <div class="w-6 h-0.5 bg-black transition-all duration-300"></div>
+                        <div class="w-6 h-0.5 bg-black transition-all duration-300"></div>
+                    </div>
+
+                    <!-- Mobile Menu -->
+                    <ul id="menu"
+                        class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center md:hidden">
+                        <li><a href="#" class="block hover:text-indigo-300 transition">Home</a></li>
+                        <li><a href="#about" class="block hover:text-indigo-300 transition">About</a></li>
+                        <li><a href="#services" class="block hover:text-indigo-300 transition">Services</a></li>
+                        <li><a href="#contact" class="block hover:text-indigo-300 transition">Contact</a></li>
+                        <li><a href="#projects" class="block hover:text-indigo-300 transition">Works</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- intro content -->
+
+            <!-- Hero Image -->
+            <img class="absolute bottom-0 right-0 h-5/6 object-cover lg:left-0 mx-auto" src="../image/a.png" alt="">
+
+            <!-- circle -->
+            <div
+                class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-96 h-96 bg-indigo-900 rounded-full -z-10">
+            </div>
+
+            <!-- animated text -->
+            <div
+                class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold">
+                <span class="text-gray-600">Freelance</span>
+                <p id="auto" class=" text-red-500"></p>
+            </div>
+        </div>
+
+        <!-- texts -->
+        <div class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg  absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3">
+            <h1 class="text-4xl font-bold text-indigo-900">Hi I'm Vivian</h1>
+            <p class="text-gray-500">A Full Stack Developer, who is passionate about building scalable, user-focused web
+                applications.
+                I specialize in turning ideas into high-performing digital experiences using modern technologies across
+                both frontend and backend.
+            </p>
+            <a class="bg-indigo-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit" href="#contact">Hire
+                Me</a>
+        </div>
+    </div>
+
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="px-10">
+            <div class="container mx-auto py-20 gap-20 flex flex-col-reverse lg:flex-row items-center ">
+
+                <!--left side  -->
+                <div class="relative ">
+                    <img class="h-1/4 absolute top-0 left-0 " src="../image/dot.png" alt="">
+                    <div class="h-full rounded-full overflow-hidden">
+                        <img src="../image/vivy2.png" alt="">
+                    </div>
+                </div>
+
+                <!-- right side -->
+                <div class="my-auto flex flex-col  gap-3">
+                    <h1 class="text-indigo-600 font-bold">ABOUT ME</h1>
+                    <h1 class="text-3xl font-medium">Better Design</h1>
+                    <h1 class="text-3xl font-medium">Better Experience</h1>
+                    <p class="text-gray-500">I design and build seamless digital experiences from front to back.
+                        I focus on performance, clean code, and creating solutions that make a real impact.</p>
+
+                    <!-- progress bar -->
+                    <h2 class="text-gray-500 font-medium">HTML/CSS</h2>
+                    <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                        <div class="w-full bg-indigo-600 h-1.5 rounded-md"></div>
+                    </div>
+                    <h2 class="text-gray-500 font-medium">Javascript/React</h2>
+                    <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                        <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
+                    </div>
+                    <h2 class="text-gray-500 font-medium">Python/PHP/Node.js</h2>
+                    <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                        <div class="w-4/6 bg-indigo-600 h-1.5 rounded-md"></div>
+                    </div>
+
+                </div>
+                <!-- end of right side -->
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+        <div class="container mx-auto ">
+            <!--top  -->
+            <div class="flex flex-col gap-3 items-center ">
+                <h1 class="text-indigo-600 font-bold">SERVICES</h1>
+                <h1 class="text-3xl">What do I offer?</h1>
+                <p class="w-1/2 text-center text-gray-500">I specialize in building dynamic, scalable, and user-focused
+                    web applications.
+                    I offer end-to-end development services — from front-end design and responsive interfaces to robust
+                    back-end systems and database management. My goal is to deliver clean, efficient, and
+                    high-performance
+                    solutions tailored to meet both business and user needs.</p>
+            </div>
+
+            <!--bottom  -->
+            <div class="p-5 sm:p-0 flex flex-wrap">
+
+                <!-- Card -->
+                <div
+                    class="w-full md:w-4/12 bg-white shadow-xl rounded-2xl p-6 my-4 md:my-10 flex flex-col gap-4 hover:shadow-2xl transition duration-300">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
+                        <img class="w-6" src="../image/services.png" alt="UX/UI Design Icon">
+                    </div>
+
+                    <h1 class="font-semibold text-xl text-gray-800">UI/UX Design</h1>
+
+                    <p class="text-gray-500 leading-relaxed">
+                        I design engaging and seamless user experiences that bring ideas to life through clean,
+                        purposeful interfaces.
+                    </p>
+
+                    <!-- Hidden extra text -->
+                    <p class="text-gray-500 leading-relaxed hidden extra-text">
+                        My design process involves understanding user behavior, mapping seamless user flows, and
+                        translating concepts into functional, pixel-perfect layouts that enhance both usability and
+                        engagement.
+                    </p>
+
+                    <a class="text-indigo-600 font-semibold text-sm hover:underline cursor-pointer read-more-btn">
+                        Read more
+                    </a>
+                </div>
+
+                <!-- Card -->
+                <div
+                    class="w-full md:w-4/12 bg-white shadow-xl rounded-2xl p-6 my-4 md:my-10 flex flex-col gap-4 hover:shadow-2xl transition duration-300">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
+                        <img class="w-6" src="../image/services.png" alt="UX/UI Design Icon">
+                    </div>
+
+                    <h1 class="font-semibold text-xl text-gray-800">Front end development</h1>
+
+                    <p class="text-gray-500 leading-relaxed">
+                        I craft clean, interactive, and responsive web interfaces that bring
+                        designs to life with
+                        performance and precision.
+                    </p>
+
+                    <!-- Hidden extra text -->
+                    <p class="text-gray-500 leading-relaxed hidden extra-text">
+                        Using technologies like React, Tailwind CSS, and JavaScript, I build front-end architectures
+                        that are fast, efficient, and easy to maintain. I pay attention to every detail — from loading
+                        speed to micro-interactions — to ensure an exceptional user experience.
+                    </p>
+
+                    <a class="text-indigo-600 font-semibold text-sm hover:underline cursor-pointer read-more-btn">
+                        Read more
+                    </a>
+                </div>
+
+                <!-- Card -->
+                <div
+                    class="w-full md:w-4/12 bg-white shadow-xl rounded-2xl p-6 my-4 md:my-10 flex flex-col gap-4 hover:shadow-2xl transition duration-300">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
+                        <img class="w-6" src="../image/services.png" alt="UX/UI Design Icon">
+                    </div>
+
+                    <h1 class="font-semibold text-xl text-gray-800">Back end development</h1>
+
+                    <p class="text-gray-500 leading-relaxed">
+                        I design and develop robust back-end architectures, APIs, and databases
+                        that ensure speed,
+                        reliability, and data integrity.
+                    </p>
+
+                    <!-- Hidden extra text -->
+                    <p class="text-gray-500 leading-relaxed hidden extra-text">
+                        From database architecture to API integration, I handle the logic that keeps your applications
+                        running smoothly.
+                    </p>
+
+                    <a class="text-indigo-600 font-semibold text-sm hover:underline cursor-pointer read-more-btn">
+                        Read more
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Projects Section -->
+    <div class="bg-gray-50 py-16" id="projects">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h1 class="text-indigo-600 font-bold pt-2">
+                MY PROJECTS
+            </h1>
+            <p class="text-gray-500 mb-12 pt-4">
+                A showcase of my recent full stack development works — blending elegant front-end design with powerful
+                back-end functionality.
+            </p>
+
+            <!-- Grid of Projects -->
+            <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+                <!-- Project Card 1 -->
+                <div class="bg-white shadow-xl rounded-2xl overflow-hidden hover:shadow-2xl transition duration-300">
+                    <img src="../image/project1.jpeg" alt="Project 1" class="w-full h-52 object-cover">
+                    <div class="p-6 flex flex-col gap-3">
+                        <h3 class="text-xl font-semibold text-gray-800">Automobile Website</h3>
+                        <p class="text-gray-500 text-sm">
+                            An automobile e-commerce platform built to deliver a smooth and reliable online car
+                            accesories shopping
+                            experience.
+                        </p>
+                        <div class="mt-2">
+                            <a href="https://simelng.netlify.app/" target="_blank"
+                                class="text-indigo-600 font-semibold text-sm hover:underline">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="bg-white shadow-xl rounded-2xl overflow-hidden hover:shadow-2xl transition duration-300">
+                    <img src="../image/project2.jpeg" alt="Project 2" class="w-full h-52 object-cover">
+                    <div class="p-6 flex flex-col gap-3">
+                        <h3 class="text-xl font-semibold text-gray-800">Logistics Website</h3>
+                        <p class="text-gray-500 text-sm">
+                            A smart logistics website designed to help users schedule, monitor, and manage deliveries
+                            with efficiency and transparency.
+                        </p>
+                        <div class="mt-2">
+                            <a href="https://jblogistics.netlify.app/" target="_blank"
+                                class="text-indigo-600 font-semibold text-sm hover:underline">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="bg-white shadow-xl rounded-2xl overflow-hidden hover:shadow-2xl transition duration-300">
+                    <img src="../image/project3.jpeg" alt="Project 3" class="w-full h-52 object-cover">
+                    <div class="p-6 flex flex-col gap-3">
+                        <h3 class="text-xl font-semibold text-gray-800">Cake E-commerce Website</h3>
+                        <p class="text-gray-500 text-sm">
+                            A modern cake website that lets customers browse, customize, and order cakes effortlessly
+                            with a smooth and interactive interface.
+                        </p>
+                        <div class="mt-2">
+                            <a href="https://ceecakesartistry.netlify.app/" target="_blank"
+                                class="text-indigo-600 font-semibold text-sm hover:underline">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <div id="contact" class="bg-gray-50 py-16">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-start">
+
+            <!-- LEFT SIDE: Contact Info & Social Links -->
+            <div class="space-y-8">
+                <div>
+                    <h2 class="font-bold text-gray-900 text-2xl mb-2">Get in Touch</h2>
+                    <p class="text-gray-600">
+                        Have a question, project, or collaboration idea? I’d love to hear from you.
+                        Reach out through the form or directly below.
+                    </p>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="space-y-4">
+                    <!-- Phone -->
+                    <div class="flex items-center gap-3">
+                        <img class="bg-white rounded-full p-1 w-[30px] h-[30px] cursor-pointer transition-all duration-200 hover:scale-110 hover:bg-[#34A853]"
+                            src="../image/icons8-phone-30.png" alt="Call Phone Number" />
+                        <a href="tel:+2347039152816" target="_blank" rel="noopener noreferrer"
+                            class="text-gray-700 hover:text-indigo-600 transition duration-200">
+                            +234 703 915 2816
+                        </a>
+                    </div>
+
+                    <!-- Gmail -->
+                    <div class="flex items-center gap-3">
+                        <img class="bg-white rounded-full p-1 w-[30px] h-[30px] cursor-pointer transition-all duration-200 hover:scale-110 hover:bg-[#EA4335]"
+                            src="../image/icons8-gmail-logo-64.png" alt="Gmail Icon" />
+                        <a href="mailto:viviannwokonko@gmail.com" target="_blank" rel="noopener noreferrer"
+                            class="text-gray-700 hover:text-indigo-600 transition duration-200 break-all">
+                            viviannwokonko@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Download Resume -->
+                <div>
+                    <a href="../image/Vivian_Nwokonko_CV.pdf" download
+                        class="inline-flex items-center gap-2 bg-indigo-600 text-white px-5 py-3 rounded-lg shadow hover:bg-indigo-700 transition duration-300">
+                        <img class="w-5 h-5" src="../image/icons8-download-50.png" alt="Download Icon">
+                        <span>Download Resume</span>
+                    </a>
+                </div>
+
+                <!-- Social Icons -->
+                <div class="flex gap-4 flex-wrap pt-4">
+                    <a href="https://www.linkedin.com/in/vivian-nwokonko-b138b114a" target="_blank"
+                        rel="noopener noreferrer">
+                        <img class="bg-white rounded-full p-1 w-[32px] h-[32px] cursor-pointer transition-all duration-200 hover:scale-110 hover:bg-[#0077B5]"
+                            src="../image/icons8-linkedin-logo-24.png" alt="LinkedIn" />
+                    </a>
+
+                    <a href="https://wa.me/2347039152816" target="_blank" rel="noopener noreferrer">
+                        <img class="bg-white rounded-full p-1 w-[32px] h-[32px] cursor-pointer transition-all duration-200 hover:scale-110 hover:bg-[#25D366]"
+                            src="../image/icons8-whatsapp-logo-30.png" alt="WhatsApp" />
+                    </a>
+
+                    <a href="https://www.twitter.com/vivygirly" target="_blank" rel="noopener noreferrer">
+                        <img class="bg-white rounded-full p-1 w-[32px] h-[32px] cursor-pointer transition-all duration-200 hover:scale-110 hover:bg-[#1DA1F2]"
+                            src="../image/icons8-twitter-logo-30.png" alt="Twitter" />
+                    </a>
+
+                    <a href="https://www.facebook.com/vivygirly" target="_blank" rel="noopener noreferrer">
+                        <img class="bg-white rounded-full p-1 w-[32px] h-[32px] cursor-pointer transition-all duration-200 hover:scale-110 hover:bg-[#1877F2]"
+                            src="../image/icons8-facebook-logo-24.png" alt="Facebook" />
+                    </a>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE: Contact Form -->
+            <form action="https://formspree.io/f/xovpzyrk" method="POST" onsubmit="handleSubmit(event)"
+                class="bg-white shadow-lg rounded-2xl p-8 space-y-6">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
+                        <input id="name" name="name" type="text" placeholder="Your Name" required
+                            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    </div>
+
+                    <div>
+                        <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                        <input id="email" name="email" type="email" placeholder="you@example.com" required
+                            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+                    <input id="subject" name="subject" type="text" placeholder="What’s this about?" required
+                        class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                </div>
+
+                <div>
+                    <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message..." required
+                        class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit"
+                        class="bg-indigo-600 text-white px-8 py-3 rounded-lg shadow hover:bg-indigo-700 transition duration-300">
+                        Send Message
+                    </button>
+                </div>
+
+                <!-- Success Message -->
+                <p id="successMsg" class="hidden text-green-600 font-medium text-center mt-4">
+                    ✅ Message sent successfully! I’ll get back to you soon.
+                </p>
+            </form>
+
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="w-full bg-black">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center gap-2">
+                <img class="w-15" src="../image/VICH_TECH.png" alt="" srcset="">
+                <span class="text-2xl font-bold text-white">Vich</span>
+            </div>
+            <span class="hidden md:block font-medium text-white">&copy 2025. Vich Technologies. All rights
+                reserved</span>
+
+            <div class="flex justify-center items-center gap-3 px-3 sm:px-0 flex-wrap">
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/vivian-nwokonko-b138b114a" target="_blank"
+                    rel="noopener noreferrer">
+                    <img class="bg-white rounded-full p-1 w-[30px] h-[30px] cursor-pointer transition-all duration-200 hover:scale-110 hover:bg-[#0077B5]"
+                        src="../image/icons8-linkedin-logo-24.png" alt="LinkedIn Profile">
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/2347039152816" target="_blank" rel="noopener noreferrer">
+                    <img class="bg-white rounded-full p-1 w-[30px] h-[30px] cursor-pointer transition-all duration-200 hover:scale-110 hover:bg-[#25D366]"
+                        src="../image/icons8-whatsapp-logo-30.png" alt="WhatsApp Chat">
+                </a>
+
+                <!-- Twitter -->
+                <a href="https://www.twitter.com/vivygirly" target="_blank" rel="noopener noreferrer">
+                    <img class="bg-white rounded-full p-1 w-[30px] h-[30px] cursor-pointer transition-all duration-200 hover:scale-110 hover:bg-[#1DA1F2]"
+                        src="../image/icons8-twitter-logo-30.png" alt="Twitter Profile">
+                </a>
+
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/vivygirly" target="_blank" rel="noopener noreferrer">
+                    <img class="bg-white rounded-full p-1 w-[30px] h-[30px] cursor-pointer transition-all duration-200 hover:scale-110 hover:bg-[#1877F2]"
+                        src="../image/icons8-facebook-logo-24.png" alt="Facebook Profile">
+                </a>
+            </div>
+
+
+
+        </div>
+    </footer>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
