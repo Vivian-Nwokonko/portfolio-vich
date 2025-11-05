@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "postcss ./src/input.css -o ./src/output.css --env production",
+    "build": "npx postcss ./src/input.css -o ./src/output.css --env production",
     "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
   },
- "devDependencies": {
-  "tailwindcss": "^4.1.16",
-  "postcss": "^8.5.6",
-  "autoprefixer": "^10.4.21"
-}
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.16"
+  }
 }
