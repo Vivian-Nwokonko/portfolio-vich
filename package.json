@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify",
+    "build": "postcss ./src/input.css -o ./src/output.css --env production",
     "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
   },
   "devDependencies": {
