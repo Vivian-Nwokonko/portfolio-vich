@@ -1,0 +1,11 @@
+{
+  "name": "portfolioviv",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.1.14"
+  }
+}
