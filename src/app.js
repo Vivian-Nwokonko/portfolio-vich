@@ -43,7 +43,7 @@ document.querySelectorAll('#menu a').forEach(link => {
 
 
 //line of code that controls the auto typing effect on the hero section
-const texts = ["Developer", "Designer", "Authour"];
+const texts = ["Developer", "Designer", "Author"];
 let count = 0;
 let index = 0;
 let currentText = "";
